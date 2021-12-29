@@ -165,9 +165,7 @@ h1,h2,h3,p {
 #demo body {
      margin: 0;
      padding: 0;
-     background: #ffffff;
      /*background-color: hsl(0, 0%, 95%);*/
-     
 }
 #demo .container {
      margin-left: auto;
@@ -190,7 +188,7 @@ h1,h2,h3,p {
      padding: 8% 6%;
      box-sizing: border-box;
 }
-img #demo {
+#demo img {
     display: block;
     width: 28%;
     height: auto;
@@ -220,7 +218,7 @@ img #demo {
      padding-bottom: 80px;
      margin-top: 0px;
 }
-#demo a{
+#demo a {
      background-color: #fff;
      padding: 15px 25px;
      border-radius: 24px;
@@ -240,9 +238,24 @@ img #demo {
 #demo .bg-1 a{
      color: hsl(31, 77%, 52%);
 }
-#demo .bg-1 a:hover,.bg-2 a:hover,.bg-3 a:hover{
+#demo .bg-1 a:hover {
      color: hsl(0, 0%, 95%);
 }
+#demo .bg-2 a:hover {
+     color: hsl(0, 0%, 95%);
+}
+#demo .bg-3 a:hover {
+     color: hsl(0, 0%, 95%);
+}
+/*#demo .bg-1 a:hover,.bg-2 a:hover,.bg-3 a:hover {
+     color: hsl(0, 0%, 95%);
+}
+#demo .bg-1 a:hover,.bg-2 a:hover,.bg-3 a:hover {
+     color: hsl(0, 0%, 95%);
+}
+#demo .bg-1 a:hover,.bg-2 a:hover,.bg-3 a:hover {
+     color: hsl(0, 0%, 95%);
+}*/
 #demo .bg-2{
      background-color: hsl(184, 100%, 22%);
 }
@@ -265,23 +278,23 @@ img #demo {
 #demo .attribution a {
      color: hsl(228, 45%, 44%);
 }
-#demo .attribution a {
+#demo.attribution a {
      background-color: transparent;
      padding: 0;
 }
  @media(min-width:1200px) {
-    #demo .container{
+    #demo .container {
          max-width: 1200px;
     }
 }
  @media(max-width:1192px) {
-    #demo .row{
+    #demo .row {
          padding: 8%;
     }
-    #demo .container{
+    #demo .container {
          padding: 10% 11%;
     }
-    #demo .col{
+    #demo .col {
          padding: 7% 5%;
     }
 }
