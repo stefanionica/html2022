@@ -1,6 +1,6 @@
 /* Core Style */
 
-body {
+.acasa {
     margin: Verdana, Arial, Helvetica, sans-serif;
     background: #333333;
     /* background-color: #333333; */
@@ -162,10 +162,9 @@ h1,h2,h3,p {
 
 @import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
 @import url('https://fonts.google.com/specimen/Lexend+Deca');
-#demo body {
+.despre {
      margin: 0;
      padding: 0;
-     /*background-color: hsl(0, 0%, 95%);*/
 }
 #demo .container {
      margin-left: auto;
@@ -268,52 +267,53 @@ h1,h2,h3,p {
 #demo .bg-3 a{
      color: hsl(179, 100%, 13%);
 }
-#demo .attribution {
+.attribution {
      padding-bottom: 20px;
 }
-#demo .attribution {
+.attribution {
      font-size: 11px;
      text-align: center;
 }
-#demo .attribution a {
+.attribution a {
      color: hsl(228, 45%, 44%);
 }
-#demo.attribution a {
+.attribution a {
      background-color: transparent;
      padding: 0;
 }
- @media(min-width:1200px) {
-    #demo .container {
+
+@media(min-width:1200px) {
+     .container {
          max-width: 1200px;
     }
 }
- @media(max-width:1192px) {
-    #demo .row {
+@media(max-width:1192px) {
+     .row {
          padding: 8%;
     }
-    #demo .container {
+     .container {
          padding: 10% 11%;
     }
-    #demo .col {
+     .col {
          padding: 7% 5%;
     }
 }
- @media(max-width:992px) {
-    #demo p{
+@media(max-width:992px) {
+     p{
          padding-bottom: 30px;
     }
-    #demo a{
+     a{
          padding: 12px 22px;
     }
-    #demo .col{
+     .col{
          width: 100%;
          padding: 17% 10%;
     }
-    #demo .col:nth-child(1) {
+     .col:nth-child(1) {
          border-bottom-left-radius:0px;
          border-top-right-radius:12px;
     }
-    #demo .col:nth-child(3) {
+     .col:nth-child(3) {
          border-bottom-left-radius:12px;
          border-top-right-radius:0px;
     }
