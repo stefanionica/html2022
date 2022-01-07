@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ap2 curs5</title>
+    <style>
+    /*smartphone*/
+@media (max-width: 640px) {
+        .mob{
+            display: block;
+        }
+        div:not(.mob){
+            display: none;
+        }
+      }
+
+/* ipad*/
+@media (min-width: 641px) and (max-width : 768px) {
+    .tab{
+            display: block;
+        }
+        div:not(.tab){
+            display: none;
+        }
+    }
+/*destop and laptop*/
+@media (min-width: 769px) and (max-width : 1223px) {
+    .lap{
+            display: block;
+        }
+        div:not(.lap){
+            display: none;
+        }
+    }
+/*large screen*/
+@media (min-width: 1224px) {
+    .des{
+            display: block;
+        }
+        div:not(.des){
+            display: none;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="des">
+        <h1>Suntem pe desktop</h1>
+<img src="a.jpeg" width="100%" alt="">
+    </div>
+    <div class="lap">
+        <h1>Suntem pe laptop</h1>
+<img src="b.jpeg" width="100%" alt="">
+    </div>
+    <div class="tab">
+        <h1>Suntem pe tableta</h1>
+<img src="c.jpeg" width="100%" alt="">
+    </div>
+    <div class="mob">
+        <h1>Suntem pe mobil</h1>
+<img src="d.jpg" width="100%" alt="">
+    </div>
+
+</body>
+</html>
