@@ -1,0 +1,15 @@
+section{
+    border: solid 2px red;
+}
+
+.left{
+   width: 60%;
+   border: solid 2px blue;
+   float: left;
+}
+.right{
+    width: 35%;
+    border: solid 2px green;
+    margin-left: 20px;
+    float: left;
+}
