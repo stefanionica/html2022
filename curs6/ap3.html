@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs6 Ap3</title>
+</head>
+<body>
+    <h1>Formular Contact</h1>
+
+    <form action="">
+       
+
+        <label for="categorie">Orasul</label>
+        <select name="categorie" id="categorie">
+            <option value="0">Selecteaza...</option>
+            <option value="1">Bucuresti</option>
+            <option value="2">Giurgiu</option>
+            <option value="3">Iasi</option>
+        </select>
+        <br>
+        <label for="cursuri">Cursuri la care doriti sa va inscrieti</label>
+        <select name="cursuri" id="cursuri" multiple>
+            <option value="0">Photoshop</option>
+            <option value="1">php</option>
+            <option value="2">HTML</option>
+            <option value="3">JAVA</option>
+            <option value="3">JS</option>
+        </select>
+        <br>
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10" maxlength="160"></textarea>
+<br>
+<label for="CV">CV</label>
+<input type="submit" value="Choose file">
+<label for="No file chosen">No file chosen</label>
+        
+        <br>
+        <fieldset>
+        <input name="categorie" id="program cursuri"> Program cursuri</input>
+        <br>
+        <input type="radio" name="categorie" id="dimineata"> Dimineata</input>
+        <input type="radio" name="categorie" id="la pranz"> La pranz</input>
+        <input type="radio" name="categorie" id="seara"> Seara</input>
+        </fieldset>
+        <br><br>
+
+        <input type="checkbox" name="categorie" id="Termeni si conditii">Termeni si conditii</input>
+        <input type="checkbox" name="categorie" id="Va abonati la newsletter">Va abonati la newsletter</input>
+        <br>
+        
+
+
+
+        <input type="submit" value="Trimite datele">
+
+</body>
+</html>
