@@ -8,7 +8,6 @@
     <style>
         body {
             counter-reset: t;
-            
         }
         h1{
             text-align: center;
@@ -20,7 +19,7 @@
         }
         h3::before {
             counter-increment: st;
-            content: counter(t) "."counter(st) " ++++ ";
+            content: counter(t) "."counter(st) " - ";
         }
     </style>
 </head>

@@ -1,0 +1,27 @@
+.section {
+    border: solid 2px red;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    background-color: greenyellow;
+    position: relative;
+}
+.div1 {
+border: solid 2px cornflowerblue;
+margin: 10px 40px;
+padding: 7px;
+max-width: 40%;
+display: inline-block;
+background:white;
+}
+
+.div2 {
+border: solid 2px blue;
+margin: 10px 40px;
+padding: 7px;
+max-width: 40%;
+display: inline-block;
+background: transparent;
+}
