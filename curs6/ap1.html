@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1> Primul formular</h1>
-    
-    <form id="formular" name="primul_formular"method="post" action="https://localhost/mytest/formular">
-    <label for="nume"> Nume </label>
-    <input id="nume" type="text" name="nume" value="">
-    <label for="prenume"> Prenumele </label>
-    <input id="prenume" type="text" name="prenume" value="">
-    <input type="submit" value="Trimite datele">
-</form>
+        
+    <form enctype="multipart/form-data" id="formular" name="primul_formular"method="post" action="https://localhost/mytest/formular.php">
+        <label for="nume"> Nume </label>
+        <input id="nume" type="text" name="nume" value="">
+        <label for="prenume"> Prenumele </label>
+        <input id="prenume" type="text" name="prenume" value="" placeholder="Introduceti prenumele">
+        <input type="submit" value="Trimite datele">
+    </form>
 </body>
 </html>
