@@ -106,9 +106,10 @@
        width: 33%;
        float: left;
      }
-     #section-b li  img{
+     #section-b li img{
          min-height: 350px;
      }
+     
      .card-content {
        padding: 1.5em;
      }
@@ -262,5 +263,7 @@
     font-weight: bold;
     border-radius: 20px;
   }
+
+  
   
    
